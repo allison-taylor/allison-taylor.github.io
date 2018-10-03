@@ -1,34 +1,40 @@
 body {
     background-color: #fff;
+    font-family: 'Fjalla One', Arial, sans-serif;
+    color: #8b8c8d
 }
 
-#headerimage {
-    background-image: url(images/allisontaylor_headshot.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    width: 100%;
+.headshot {
+    text-align: center;
+    background: url("images/allisontaylor_headshot.jpg");
+    background-size: cover;	
+    max-width: 100%;
     height: auto;
-}
-
-div {
 }
 
 h1, h3 {
     color: #7ad7dd;
-    font-family: Arial, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
+    text-align: center;
+
+}
+
+h1 {
+	font-size: 40px
 }
 
 p {
-	font-family: Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #slogan {
-	font-weight: bold;
+	font-size: 30px
 }
 
 a {
 	text-decoration: underline;
+	color: #7ad7dd;
+	font-size: 20px;
 }
+
