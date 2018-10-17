@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #8b8c8d
+}
+
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav{
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav h3 {
+    color: #7ad7dd;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #7ad7dd;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 20px;
+    float: right;
+}
+
+.headshot {
+    text-align: center;
+    background: url("images/allisontaylor_headshot.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin: auto;
+}
+
+main {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+h1, h3 {
+    color: #7ad7dd;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1 {
+	font-size: 40px;
+    padding-bottom: 1em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+    line-height: 1.6em;
+}
+
+ul, ol {
+    padding-left: 2em;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #7ad7dd;
+    font-size: 20px;
+}
+
+.portfolio {
+    padding-bottom: 4em;
+}
+
+.thumbnail {
+    padding-right: 1.5em;
+}
+
+.about {
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.contact {
+}
+
+footer {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    color: #7ad7dd;
+    text-align: center;
+    line-height: 20px;
+}
+
