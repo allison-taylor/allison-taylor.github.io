@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+header {
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+nav, h3 {
+    color: #7ad7dd;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #7ad7dd;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 20px;
+    float: left;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #8b8c8d;
+}
+
+.headshot {
+    text-align: center;
+    background: url("images/allisontaylor_headshot.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+main {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    padding: 4em;
+}
+
+h1, h3 {
+    color: #7ad7dd;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1 {
+	font-size: 30px;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+    line-height: 1.6em;
+    color: #8b8c8d;
+}
+
+ul, ol {
+    padding-left: 2em;
+    font-size: 16px;
+    line-height: 2em;
+    color: #8b8c8d;
+}
+
+a {
+    text-decoration: none;
+    color: #7ad7dd;
+    font-size: 20px;
+}
+
+.portfolio {
+    padding-bottom: 4em;
+}
+
+.thumbnail {
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.about {
+}
+
+#wrapper {
+}
+
+#navleft {
+    float: left;
+    padding: 20px;
+}
+
+#navright {
+    float: right;
+    padding: 20px;
+}
+
+#two_column {
+}
+
+#left {
+    padding-right: 3em;
+    float: left;
+    width: 50%;
+    display: block;
+}
+
+#right {
+    float: right;   
+    width: 30%;
+    display: block;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+article {
+}
+
+aside {
+}
+
+div {
+}
+
+.contact {
+}
+
+footer {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    background-color: #8b8c8d;
+    padding: 20px;
+    color: #7ad7dd;
+    text-align: center;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #left, #right {
+        float: none;
+        width: auto;
+    }
+    nav a {
+        float: none;
+        text-align: center;
+        padding: .5em;
+    }
+    nav {
+        text-align: center;
+        float: none;
+    }
+     h3, nav {
+        display: block;
+        text-align: center;
+    }
+    #navleft, #navright {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        padding: 2em;
+    }
+    #left {
+        padding-left: 0;
+    }
+}
